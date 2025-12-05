@@ -33,7 +33,7 @@ export default function Header() {
         hasScrolled || isOpen
           ? 'border-b border-border/50 bg-background/80 backdrop-blur-lg'
           : 'bg-transparent',
-        isOpen && 'bg-background'
+        isOpen && '!bg-background/100'
       )}
     >
       <div className="container-max flex h-20 items-center justify-between px-6">
