@@ -35,13 +35,12 @@ export default function About() {
                 className="overflow-hidden bg-card/50 transition-all hover:bg-card"
               >
                 <CardHeader className="flex-row items-center gap-4">
-                  <Avatar className="h-20 w-20">
+                  <Avatar className="relative h-20 w-20">
                     {memberImage && (
                       <Image
                         src={memberImage.imageUrl}
                         alt={`Profilbild von ${member.name}`}
-                        width={80}
-                        height={80}
+                        fill
                         data-ai-hint={memberImage.imageHint}
                         className="object-cover"
                       />
