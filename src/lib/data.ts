@@ -47,7 +47,7 @@ export const teamMembers = [
     name: 'Martin Johannes Brucker',
     role: 'Co-Founder · Data Science & Applied AI',
     description:
-      'Data-Science-Masterstudent mit Schwerpunkt Analyse & Visualisierung. Er war bereits in Projekten zur Digitalisierung von Abläufen im Gesundheits- und öffentlichen Sektor eingesetzt.',
+      'Spezialisiert auf Datenanalyse, Visualisierung und die Entwicklung von Datenprodukten. Bringt umfassende Erfahrung aus Projekten zur Digitalisierung von Prozessen im Gesundheits- und öffentlichen Sektor mit.',
     skills: [
       'Data Science & Analytics',
       'Prototyping',
@@ -60,7 +60,7 @@ export const teamMembers = [
     name: 'Frederik Brinkmann',
     role: 'Co-Founder · Business & AI Strategy',
     description:
-      'Junior Business-Development-Specialist mit Schwerpunkt AI Solutions. Er baut Brücken zwischen Technologie, Produkten und Geschäftsmodell.',
+      'Fokussiert auf die Entwicklung von KI-Geschäftsmodellen und deren strategische Implementierung. Er schlägt die Brücke zwischen technischer Machbarkeit und nachhaltigem Markterfolg.',
     skills: [
       'AI Business Cases',
       'Go-to-Market-Strategie',
@@ -73,33 +73,33 @@ export const teamMembers = [
 
 export const caseStudies = [
   {
-    title: 'Digitale Prozessplattform im Gesundheitswesen',
+    title: 'Prozessoptimierung im Gesundheitssektor',
     description:
-      'Entwicklung einer zentralen Plattform zur Digitalisierung und Automatisierung klinischer Abläufe für ein mittelständisches Medizintechnik-Unternehmen.',
+      'Entwicklung einer digitalen Plattform zur Automatisierung und Echtzeit-Überwachung klinischer Abläufe für ein führendes Medizintechnik-Unternehmen.',
     points: [
-      'Analyse und Modellierung von Prozessen',
-      'Backend-Entwicklung und Datenbankdesign',
-      'Implementierung eines Dashboards für Echtzeit-Monitoring',
+      'Modellierung und Digitalisierung von Schlüsselprozessen',
+      'Implementierung eines zentralen Monitoring-Dashboards',
+      'Skalierbare Backend-Architektur für hohe Datenlast',
     ],
   },
   {
-    title: 'KI-gestützte Dokumentenanalyse im Finanzbereich',
+    title: 'Intelligente Dokumentenverarbeitung für Versicherungen',
     description:
-      'Konzeption und Prototyping einer KI-Lösung zur automatisierten Extraktion und Klassifizierung von Informationen aus Finanzdokumenten für eine Versicherung.',
+      'Konzeption und Implementierung einer KI-Lösung zur automatisierten Extraktion und Validierung von Daten aus komplexen Finanzdokumenten.',
     points: [
-      ' Einsatz von Natural Language Processing (NLP)',
-      'Training eines Klassifikationsmodells',
-      'Integration in bestehende Workflows via API',
+      'Einsatz von Natural Language Processing (NLP) zur Datenextraktion',
+      'Training eines custom Klassifikationsmodells zur Validierung',
+      'Nahtlose API-Integration in bestehende Enterprise-Systeme',
     ],
   },
   {
-    title: 'Predictive Analytics für operative Planung',
+    title: 'Predictive Analytics zur Ressourcenplanung',
     description:
-      'Aufbau einer Predictive-Analytics-Lösung zur Vorhersage von Auftragseingängen und zur Optimierung der Ressourcenplanung für einen Logistikdienstleister.',
+      'Aufbau einer Predictive-Analytics-Lösung zur präzisen Vorhersage von Auftragsvolumina und zur dynamischen Optimierung der Personal- und Flottenplanung.',
     points: [
-      'Entwicklung von Zeitreihen-Prognosemodellen',
-      'Aufbau einer skalierbaren Daten-Pipeline in der Cloud',
-      'Visualisierung der Prognosen in einem interaktiven Dashboard',
+      'Entwicklung von Zeitreihen-Prognosemodellen (Time-Series Forecasting)',
+      'Cloud-basierte ETL-Pipeline für die Verarbeitung von Betriebsdaten',
+      'Interaktives Dashboard zur Steuerung und Simulation von Szenarien',
     ],
   },
 ];
