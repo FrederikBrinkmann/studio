@@ -32,7 +32,8 @@ export default function Header() {
         'sticky top-0 z-50 w-full transition-all duration-300',
         hasScrolled || isOpen
           ? 'border-b border-border/50 bg-background/80 backdrop-blur-lg'
-          : 'bg-transparent'
+          : 'bg-transparent',
+        isOpen && 'bg-background'
       )}
     >
       <div className="container-max flex h-20 items-center justify-between px-6">
