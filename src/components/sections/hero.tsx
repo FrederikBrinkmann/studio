@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="home" className="section-padding">
       <div className="container-max text-center">
         <h1 className="font-headline text-5xl font-bold tracking-tight text-foreground sm:text-6xl md:text-7xl lg:text-8xl">
-          Wir geben Ihren Daten Richtung
+          Aus Daten Visionen schaffen und verwirklichen.
         </h1>
         <p className="mx-auto mt-6 max-w-3xl text-lg text-muted-foreground md:text-xl">
           RAUM5 ist Ihr Partner für Data Science, Softwareentwicklung und

@@ -4,9 +4,9 @@ import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/layout/header';
 
 export const metadata: Metadata = {
-  title: 'RAUM5 Digital',
+  title: 'RAUM5',
   description:
-    'RAUM5 ist Ihr Partner für Data Science, Softwareentwicklung und KI-Consulting – von der Idee bis zur skalierbaren Lösung.',
+    'RAUM5 ist der Ort für Data Science, Softwareentwicklung und KI-Consulting – von der Idee bis zur skalierbaren Lösung.',
 };
 
 export default function RootLayout({
