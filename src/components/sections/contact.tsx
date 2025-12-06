@@ -49,13 +49,32 @@ export default function Contact() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values); // Fake submission
-    toast({
-      title: 'Nachricht gesendet!',
-      description: 'Vielen Dank! Wir werden uns in Kürze bei Ihnen melden.',
-    });
-    form.reset();
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      });
+
+      if (!response.ok) {
+        throw new Error('Fehler beim Senden der Nachricht');
+      }
+
+      toast({
+        title: 'Nachricht gesendet!',
+        description: 'Vielen Dank! Wir werden uns in Kürze bei Ihnen melden.',
+      });
+      form.reset();
+    } catch (error) {
+      toast({
+        title: 'Fehler',
+        description: 'Die Nachricht konnte nicht versendet werden. Bitte versuchen Sie es später erneut.',
+        variant: 'destructive',
+      });
+    }
   }
 
   return (
